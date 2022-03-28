@@ -1,0 +1,55 @@
+.item {
+  float: left;
+  width: 120px;
+  padding: 10px;
+}
+
+.cart-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 8%;
+}
+
+.img-wrapper img {
+  width: 100px;
+  /* margin-top: -10px; */
+}
+
+.btn-wrapper button {
+  background-color: red;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: #ffff;
+  box-shadow: #333 0px 1px 5px;
+  cursor: pointer;
+}
+
+.add-to-cart img {
+  width: 40px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  cursor: pointer;
+}
+.card-bg {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  z-index: 1;
+}
+/* .card-number {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+} */
