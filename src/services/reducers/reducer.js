@@ -17,6 +17,10 @@ export default function cardItems(state = [], action) {
       //   cardData: action.data, //data is action therefor we are using the data here.
       // }; // this will return single element on each time.
       break;
+    case "remove_To_Product":
+      state.pop();
+      return [...state];
+      break;
 
     default:
       return state;

@@ -9,8 +9,8 @@ export const addToCart = (data) => {
   };
 };
 
-// export const removeToCard = () => {
-//   return {
-//     type: "remove_To_Product",
-//   };
-// };
+export const removeToCart = () => {
+  return {
+    type: "remove_To_Product",
+  };
+};

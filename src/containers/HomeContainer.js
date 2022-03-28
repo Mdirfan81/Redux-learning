@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { addToCart } from "../services/actions/action";
+import { addToCart, removeToCart } from "../services/actions/action";
 import Home from "../components/Home";
 
 //this used for updating the data where ever is in use.
@@ -12,6 +12,7 @@ const mapStateToPrpops = (state) => ({
 //this will update the data in redux store.
 const mapDispatchToProps = (dispatch) => ({
   addToCartHandler: (data) => dispatch(addToCart(data)),
+  removeCardHandler: (data) => dispatch(removeToCart(data)),
 });
 export default connect(mapStateToPrpops, mapDispatchToProps)(Home); // this is a container.
 // export default Home;

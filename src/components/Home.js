@@ -25,6 +25,13 @@ const Home = (props) => {
           >
             Add to card
           </button>
+
+          <button
+            style={{ marginTop: "10px" }}
+            onClick={() => props.removeCardHandler()}
+          >
+            Remove Item
+          </button>
         </div>
       </div>
     </div>
