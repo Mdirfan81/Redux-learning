@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 // import Header from "./Header";
 const Home = (props) => {
-  console.warn("Home", props.data);
+  // console.warn("Home", props.data);
   return (
     <div>
       <h2> Home Component </h2>
